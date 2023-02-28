@@ -10,22 +10,30 @@ body {
     background-color: #d9dcd6;
 }
 
-/*  */
+/* setting up header properties including color, background color, padding and font */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/* styling the title */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
-/*  this code looks fro the class .seo inside of h1 that is in the header class*/
+/* changing the (seo) characters in the title to a different color */
 .header h1 .seo {
     color: #d9dcd6;
+}
+/* setting up navgation bar */
+.header nav ul {
+    list-style-type: none;
+}
+/* setting up navgation bar */
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
 }
 
 /* stylizing the navigation bar */
@@ -37,22 +45,10 @@ body {
     font-size: 20px;
 }
 
-.header nav ul {
-    list-style-type: none;
-}
-
-.header nav ul li {
-    display: inline-block;
-    margin-left: 25px;
-}
-
+/* setting up links in the navgation bar that take you down the webpage */
 a {
     color: #ffffff;
     text-decoration: none;
-}
-
-p {
-    font-size: 16px;
 }
 
 /* setting up demintions for the main image */
@@ -63,22 +59,87 @@ p {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
+/* settting up space for the three articles for SEO,ORM,SMM  */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* setting up the SEO box with box sizing font text color and background color */
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/* setting up the max height for SEO image */
+.search-engine-optimization img {
+    max-height: 200px;
+}
+/* giving the SEO title a margin bottom size and font size */
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* setting up the ORM box with box sizing font text color and background color */
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/* setting up the max height for ORM image */
+.online-reputation-management img {
+    max-height: 200px;
+}
+/* giving the SEO title a margin bottom size and font size */
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* setting up the SMM box with box sizing font text color and background color */
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/* setting up the max height for SMM image */
+.social-media-marketing img {
+    max-height: 200px;
+}
+/* giving the SEO title a margin bottom size and font size */
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* positioning the picture for SEO and SMM to the left*/
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+/* positioning the picture for ORM to the right */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* setting up the font size for the text in paragraphs */
+p {
+    font-size: 16px;
+}
+
+/* setting up the side article on the right, giving it's box data and color and font */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -90,115 +151,65 @@ p {
     background-color: #2589bd;
 }
 
+/* giving the "lead generation" a section */
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
+/* setting up the title for "lead generation" */
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
+/* setting up the image for "lead managment" */
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* giving the "brand awarness a section */
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/* setting up the title for "brand awarness" */
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/* setting up the image for "brand awarness" */
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* giving the "cost managment" a section */
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/* setting up the title for "cost managment" */
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/* setting up the image for "cost managment" */
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* setting up the footer */
 .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
+/* giving the foooter a font size */
 .footer h2 {
     font-size: 20px;
 }
